@@ -6,3 +6,7 @@
       progress: 100
     })
   }自定义事件，修改默认data对象的数据
+
+3. checkbox-group
+
+e.detail.value 选中事件获取的选中checkbox值的数组。
