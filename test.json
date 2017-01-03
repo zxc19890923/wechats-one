@@ -9,3 +9,10 @@
 
 3. checkbox-group
 e.detail.value 选中事件获取的选中checkbox值的数组。
+
+4. 多选框
+ <checkbox-group bindchange="changeCk">
+    <label class="checkbox" wx:for="{{items}}" wx:key="{{*this}}">
+        <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </label>
+ </checkbox-group>
